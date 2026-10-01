@@ -1,3 +1,3 @@
-# Proteus files
+# Proteus simulation project
 
-The project report states that Proteus was used, but no Proteus project or simulation artifacts were included in the source materials. Place the original Proteus project and its required files in this folder when available.
+`Proteus Simulation.pdsprj` is the Proteus project file supplied with the project. Open it in Proteus to inspect or run the simulation. The supplied file is a packaged project; compatibility and simulation behavior have not been verified in Proteus here.

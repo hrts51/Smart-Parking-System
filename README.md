@@ -6,7 +6,7 @@ An Arduino UNO based six-slot parking prototype documented for Project Based Lea
 
 - `Arduino/smart_parking_system.ino` - running Arduino sketch supplied with the project.
 - `Documentation/Smart_Parking_System_Report.pdf` - original 35-page project report.
-- `Proteus/` - reserved for simulation files; no Proteus project file was included with the supplied materials.
+- `Proteus/Proteus Simulation.pdsprj` - supplied Proteus project package.
 - `Hardware/images/` - reserved for prototype photos; no separate image files were included. The report includes a hardware implementation image (page 32).
 
 ## Hardware described by the report and sketch
@@ -61,7 +61,7 @@ At startup, the sketch reads all six slot sensors. A slot is treated as occupied
 
 ## Proteus simulation
 
-The report says the project was implemented/simulated using Proteus and Arduino IDE. The Proteus project, component library setup, and simulation screenshots were not among the supplied files, so this repository does not currently contain a runnable Proteus simulation. Add the original `.pdsprj` and required related files under `Proteus/` if available; do not assume a simulation can be reconstructed from the report alone.
+The report says the project was implemented/simulated using Proteus and Arduino IDE. The supplied `Proteus/Proteus Simulation.pdsprj` is included. It is a packaged Proteus project file containing project data; the simulation has not been opened or verified in Proteus here, so confirm it loads with your Proteus version and any required libraries.
 
 ## Project results
 
@@ -81,3 +81,4 @@ These discrepancies are retained and documented rather than silently corrected:
 ## Source
 
 Prepared from the supplied running sketch and the report titled **Smart Parking System**, submitted as a Project Based Learning report in November 2024. The original report is included in `Documentation/`.
+
